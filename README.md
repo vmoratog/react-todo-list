@@ -14,3 +14,5 @@ npm install --save-dev url-loader file-loader
 
 # Babel
 Herramienta para convertir código con los últimos estándares de ES6+ a código que sea soportado por los navegadores.
+
+<img src="to-do-list.png" alt="to-do.list" />
