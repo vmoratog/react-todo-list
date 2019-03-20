@@ -9,6 +9,7 @@ npm i babel-plugin-transform-class-properties --save-dev
 npm i webpack webpack-cli html-webpack-plugin html-loader --save-dev
 npm i webpack-dev-server --save-dev
 npm install --save-dev style-loader css-loader
+npm install --save-dev url-loader file-loader
 ```
 
 # Babel

@@ -8,7 +8,7 @@ module.exports = {
     filename: 'bundle.js'
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.css']
+    extensions: ['.js', '.jsx', '.css', '.svg', '.png']
   },
   module: {
     rules: [
@@ -31,7 +31,14 @@ module.exports = {
           { loader: "style-loader" },
           { loader: "css-loader" }
         ]
-      }
+      },
+      {
+        test: /\.(pdf|jpg|png|gif|svg|ico)$/,
+        use: [
+          { loader: "url-loader" },
+          //{ loader: "file-loader" }
+        ]
+      },
     ]
   },
   plugins: [
